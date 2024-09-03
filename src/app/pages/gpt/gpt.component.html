@@ -3,7 +3,7 @@
 </section>
 
 <section class="messaging" #messageContainer>
-    <div class="messaging-container" >
+    <div class="messaging-container">
         <div *ngFor="let message of messages; let i = index" class="message">
             <div class="message-content" [ngClass]="{'sent': message.sent, 'received': !message.sent}">
                 {{ message.text }}
@@ -13,5 +13,8 @@
 </section>
 
 <section class="input-bar">
-    <button (click)="send()">Send</button>
+    <div class="controls">
+        <input type="text" placeholder="Ask Jules"/>
+        <button (click)="send()">Send</button>
+    </div>
 </section>
