@@ -1,20 +1,46 @@
 <section class="top-bar">
-    Top bar
+    <img src="/coding-icon.webp" />
+    <div class="logo">Jules<span>GPT</span></div>
 </section>
 
 <section class="messaging" #messageContainer>
     <div class="messaging-container">
+
+
+        <div class="loading" *ngIf="isWaitingOnGPT">
+            <img src="loading.gif" />
+        </div>
+
         <div *ngFor="let message of messages; let i = index" class="message">
-            <div class="message-content" [ngClass]="{'sent': message.sent, 'received': !message.sent}">
+
+            <div *ngIf="message.sent" class="message-content sent">
                 {{ message.text }}
             </div>
+
+            <div *ngIf="!message.sent" class="message-content received">
+                <div class="received-container">
+                    <img src="/coding-icon.webp" />
+                    <div [innerHTML]="message.text"></div>
+                </div>
+            </div>
         </div>
+
+    </div>
+</section>
+
+
+<section class="prompts">
+    <div *ngFor="let p of prompts; let i=index" class="prompt" (click)="send(p)">
+        {{p}}
     </div>
 </section>
 
 <section class="input-bar">
     <div class="controls">
-        <input type="text" placeholder="Ask Jules"/>
-        <button (click)="send()">Send</button>
+        <input #inputTextField type="text" placeholder="Ask Jules" [disabled]="!enableTyping" [(ngModel)]="inputText"
+            (keyup.enter)="send()">
+        <button (click)="send()" [disabled]="!enableTyping">
+            <i class="material-symbols-outlined">send</i>
+        </button>
     </div>
 </section>
