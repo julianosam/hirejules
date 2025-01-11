@@ -1,6 +1,11 @@
 <section class="top-bar">
-    <img src="/coding-icon.webp" />
+    <img src="/logo.png" />
     <div class="logo">Jules<span>GPT</span></div>
+    <div class="links">
+        <!-- <a href="#"><i class="bi bi-person-circle"></i><div class="hide-sm">Portfolio</div></a> -->
+        <a href="https://www.linkedin.com/in/julianosam/" target="_blank"><i class="bi bi-linkedin"></i><div class="hide-sm">LinkedIn</div></a>
+        <a href="https://github.com/julianosam/hirejules" target="_blank"><i class="bi bi-github"></i><div class="hide-sm">Source</div></a>
+    </div>
 </section>
 
 <section class="messaging responsive" #messageContainer>
@@ -8,7 +13,7 @@
 
 
         <div class="loading" *ngIf="isWaitingOnGPT">
-            <img src="loading.gif" />
+            <img src="logo.png" />
         </div>
 
         <div *ngFor="let message of messages; let i = index" class="message">
@@ -19,7 +24,7 @@
 
             <div *ngIf="!message.sent" class="message-content received">
                 <div class="received-container">
-                    <img src="/coding-icon.webp" />
+                    <img src="/logo.png" />
                     <div [innerHTML]="message.text"></div>
                 </div>
             </div>
@@ -42,7 +47,7 @@
     </div>
     <div class="btn">
         <button (click)="send()" [disabled]="!isTypingEnabled()">
-            <i class="material-symbols-outlined">send</i>
+            <i class="bi bi-send"></i>
         </button>
     </div>
 

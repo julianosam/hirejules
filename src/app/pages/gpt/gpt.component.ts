@@ -40,31 +40,31 @@ export class GptComponent implements OnInit {
 
   async init() {
 
-    const jobInfo = this.extractCompanyAndJob(this.jobName);
-    let openingMsg = `<p>Hello! I'm Jules' personal assistant. I can answer questions about Jules and his outstanding professional career. </p>
-      <p>Here are 3 reasons why he is the best fit for your company:</p>`;
-    let openingPrompt = `3 reasons why Jules is the best fit`;
+    // const jobInfo = this.extractCompanyAndJob(this.jobName);
+    // let openingMsg = `<p>Hello! I'm Jules' personal assistant. I can answer questions about Jules and his outstanding professional career. </p>
+    //   <p>Here are 3 reasons why he is the best fit for your company:</p>`;
+    // let openingPrompt = `3 reasons why Jules is the best fit`;
 
-    if (jobInfo) {
-      openingMsg = `<p>Hello <b class="hj-capitalize">${jobInfo.company}</b> team! I'm Jules' personal assistant. I can answer questions about Jules and his outstanding professional career.</p>
-      <p>Here are 3 reasons why he is the best fit for the <b class="hj-capitalize">${jobInfo.jobName}</b> role at <b class="hj-capitalize">${jobInfo.company}</b> based on the job description:</p>`;
-      openingPrompt = 'match 3 requirements from the job description with Jules skills. no preface.';
-    }
+    // if (jobInfo) {
+    //   openingMsg = `<p>Hello <b class="hj-capitalize">${jobInfo.company}</b> team! I'm Jules' personal assistant. I can answer questions about Jules and his outstanding professional career.</p>
+    //   <p>Here are 3 reasons why he is the best fit for the <b class="hj-capitalize">${jobInfo.jobName}</b> role at <b class="hj-capitalize">${jobInfo.company}</b> based on the job description:</p>`;
+    //   openingPrompt = 'match 3 requirements from the job description with Jules skills. no preface.';
+    // }
 
 
-    this.__addAssistantMessage(openingMsg, false, 30);
-    this._gtp.ask(openingPrompt, this.jobName).then((answer) => {
+    // this.__addAssistantMessage(openingMsg, false, 30);
+    // this._gtp.ask(openingPrompt, this.jobName).then((answer) => {
 
-      const f = () => {
-        if (this.enableTyping) {
-          this.__addAssistantMessage(answer, true);
-        } else {
-          setTimeout(f, 250);
-        }
-      };
+    //   const f = () => {
+    //     if (this.enableTyping) {
+    //       this.__addAssistantMessage(answer, true);
+    //     } else {
+    //       setTimeout(f, 250);
+    //     }
+    //   };
 
-      f();
-    });
+    //   f();
+    // });
 
 
   }
