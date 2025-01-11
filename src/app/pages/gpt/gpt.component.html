@@ -1,0 +1,54 @@
+<section class="top-bar">
+    <img src="/logo.png" />
+    <div class="logo">Jules<span>GPT</span></div>
+    <div class="links">
+        <!-- <a href="#"><i class="bi bi-person-circle"></i><div class="hide-sm">Portfolio</div></a> -->
+        <a href="https://www.linkedin.com/in/julianosam/" target="_blank"><i class="bi bi-linkedin"></i><div class="hide-sm">LinkedIn</div></a>
+        <a href="https://github.com/julianosam/hirejules" target="_blank"><i class="bi bi-github"></i><div class="hide-sm">Source</div></a>
+    </div>
+</section>
+
+<section class="messaging responsive" #messageContainer>
+    <div class="messaging-container">
+
+
+        <div class="loading" *ngIf="isWaitingOnGPT">
+            <img src="logo.png" />
+        </div>
+
+        <div *ngFor="let message of messages; let i = index" class="message">
+
+            <div *ngIf="message.sent" class="message-content sent">
+                {{ message.text }}
+            </div>
+
+            <div *ngIf="!message.sent" class="message-content received">
+                <div class="received-container">
+                    <img src="/logo.png" />
+                    <div [innerHTML]="message.text"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="prompts responsive">
+    <div *ngFor="let p of prompts; let i=index" class="prompt" (click)="send(p)">
+        {{p}}
+    </div>
+</section>
+
+<section class="input-bar responsive">
+    <div class="text">
+        <input #inputTextField type="text" placeholder="Ask something about Jules" [disabled]="!isTypingEnabled()" [(ngModel)]="inputText"
+            (keyup.enter)="send()">
+    </div>
+    <div class="btn">
+        <button (click)="send()" [disabled]="!isTypingEnabled()">
+            <i class="bi bi-send"></i>
+        </button>
+    </div>
+
+</section>

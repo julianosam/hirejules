@@ -1,0 +1,25 @@
+{
+    "jobSummary": "As a Staff Software Engineer at Favor, you will be responsible for all phases of development, testing, and deployment of our web applications, back-end services, databases, and data warehouse. You will work closely with our product and operations teams to understand customer needs, build simple solutions to complex problems, and deliver delightful experiences to all our users.",
+    "hardSkills": [
+        "8+ years of experience in software engineering",
+        "Advanced understanding of software design patterns",
+        "Ability to create solutions using novel algorithms and data structures",
+        "Strong understanding of test automation techniques",
+        "Expert knowledge of REST + JSON, API versioning strategies, and security best practices",
+        "Understanding of database concepts such as joins and indexes",
+        "Experience with technologies such as Kotlin, Java, PHP, Scala, MySQL, Postgres, Kafka, Docker, Kubernetes, Terraform, AWS, Elasticsearch, JUnit, Jenkins"
+    ],
+    "softSkills": [
+        "Ability to lead larger initiatives working with product, design, and engineering teams",
+        "Ability to gather and define software requirements considering multiple patterns and strategies",
+        "Ability to use debugging tools to trace and diagnose issues",
+        "Ability to communicate difficult technical concepts in precise, concise, and unambiguous terms",
+        "Appreciation for simple design",
+        "Enjoyment of working with other engineers in a collaborative and iterative environment",
+        "Good communication skills with technical and non-technical stakeholders"
+    ],
+    "experience": [
+        "8+ years of experience in software engineering",
+        "Experience in a high-growth startup is a plus"
+    ]
+}
