@@ -1,0 +1,26 @@
+<nav class="nav-bar">
+  <div class="content">
+    <a class="logo">
+      <b>Jules</b>Sanches
+    </a>
+    <a>Home</a>
+    <a>Projects</a>
+    <a>Contact</a>
+  </div>
+</nav>
+
+<section class="pages">
+
+  <div class="page gradient" appIntersectionObserver [options]="{ threshold: 0.5 }" (visible)="onVisibilityChange($event, 'page 1')">
+    <div class="content">Page 1</div>
+  </div>
+  <div class="page" appIntersectionObserver [options]="{ threshold: 0.5 }" (visible)="onVisibilityChange($event, 'page 2')">
+    <div class="content">Page 2</div>
+  </div>
+  <div class="page grey-bg" appIntersectionObserver [options]="{ threshold: 0.5 }" (visible)="onVisibilityChange($event, 'page 3')">
+    <div class="content">Page 3</div>
+  </div>
+  <div class="page" appIntersectionObserver [options]="{ threshold: 0.5 }" (visible)="onVisibilityChange($event, 'page 4')">
+    <div class="content">Page 4</div>
+  </div>
+</section>

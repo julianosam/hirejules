@@ -3,7 +3,7 @@
     <div class="logo">Jules<span>GPT</span></div>
 </section>
 
-<section class="messaging" #messageContainer>
+<section class="messaging responsive" #messageContainer>
     <div class="messaging-container">
 
 
@@ -29,18 +29,21 @@
 </section>
 
 
-<section class="prompts">
+<section class="prompts responsive">
     <div *ngFor="let p of prompts; let i=index" class="prompt" (click)="send(p)">
         {{p}}
     </div>
 </section>
 
-<section class="input-bar">
-    <div class="controls">
-        <input #inputTextField type="text" placeholder="Ask Jules" [disabled]="!enableTyping" [(ngModel)]="inputText"
+<section class="input-bar responsive">
+    <div class="text">
+        <input #inputTextField type="text" placeholder="Ask something about Jules" [disabled]="!isTypingEnabled()" [(ngModel)]="inputText"
             (keyup.enter)="send()">
-        <button (click)="send()" [disabled]="!enableTyping">
+    </div>
+    <div class="btn">
+        <button (click)="send()" [disabled]="!isTypingEnabled()">
             <i class="material-symbols-outlined">send</i>
         </button>
     </div>
+
 </section>

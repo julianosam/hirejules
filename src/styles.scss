@@ -2,12 +2,21 @@
 
 :root {
     font-size: 16px;
-    font-family: 'Poppins', 'Arial';
-  }
+    font-family: 'system-ui',  'Helvetica', 'Arial';
+    --vh: 1vh;
+}
 
 body {
     padding: 0;
     margin: 0;
+    user-select: none;
+    /* Standard property */
+    -webkit-user-select: none;
+    /* For Safari */
+    -moz-user-select: none;
+    /* For Firefox */
+    -ms-user-select: none;
+    /* For Internet Explorer/Edge (legacy) */
 }
 
 input,
@@ -15,17 +24,18 @@ select,
 textarea,
 button {
     all: unset;
-    /* Removes all default styles */
     font: inherit;
-    /* Inherits font properties from parent */
     color: inherit;
-    /* Inherits text color */
-    border: 1px solid #ccc;
-    /* Optional: Add borders back */
-    padding: 0.5rem;
-    /* Optional: Add padding */
     box-sizing: border-box;
-    /* Prevent overflow due to padding */
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 2rem;
+
+    li {
+        margin: .5rem 0;
+    }
 }
 
 .hj-padding {
@@ -34,4 +44,9 @@ button {
 
 .hj-capitalize {
     text-transform: capitalize;
+}
+
+.hj-full-height {
+    height: calc(var(--vh, 1vh) * 100);
+    /* Full height visible */
 }

@@ -2,7 +2,6 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
-import { concatMap, delay, finalize, from, Observable } from 'rxjs';
 import { GptService } from '../../shared/gpt.service';
 
 @Component({
@@ -21,11 +20,11 @@ export class GptComponent implements OnInit {
   @ViewChild('typingContainer', { static: true }) typingContainer!: ElementRef;
 
   messages: Message[] = [];
-  prompts: string[] = ['Top 3 career achievements', 'Jules\' leadership style', 'Database experience', 'Top programming languages', 'Front-end experience', 'Back-end experience', 'Experience with Microservices', 'Experience with Cloud/AWS', 'Education and qualifications', 'Management Experience'];
+  prompts: string[] = ['Why is he the best fit?', 'Top 3 career achievements', 'Jules\' leadership style', 'Database experience', 'Top programming languages', 'Front-end experience', 'Back-end experience', 'Experience with Microservices', 'Experience with Cloud/AWS', 'Education and qualifications', 'Management Experience'];
   jobName: string = '';
   enableTyping = true;
   typingTimeout: any = null;
-  typingSpeed = 8;
+  typingSpeed = 10;
   inputText = '';
   isWaitingOnGPT = false;
 
@@ -42,18 +41,18 @@ export class GptComponent implements OnInit {
   async init() {
 
     const jobInfo = this.extractCompanyAndJob(this.jobName);
-    let openingMsg = `<p>Hello! I'm Jules' personal assistant. I can answer questions about Jules an his outstanding profession career. 
-      <br/><br/> Here are 3 reasons why Jules is the best fit for your company:</p>`;
+    let openingMsg = `<p>Hello! I'm Jules' personal assistant. I can answer questions about Jules and his outstanding professional career. </p>
+      <p>Here are 3 reasons why he is the best fit for your company:</p>`;
     let openingPrompt = `3 reasons why Jules is the best fit`;
 
     if (jobInfo) {
-      openingMsg = `<p>Hello <b class="hj-capitalize">${jobInfo.company}</b> team! I'm Jules' personal assistant. 
-      <br/> Here are 3 reasons why Jules is the best fit for the <b class="hj-capitalize">${jobInfo.jobName}</b> role at your company based on the job description:</p>`;
+      openingMsg = `<p>Hello <b class="hj-capitalize">${jobInfo.company}</b> team! I'm Jules' personal assistant. I can answer questions about Jules and his outstanding professional career.</p>
+      <p>Here are 3 reasons why he is the best fit for the <b class="hj-capitalize">${jobInfo.jobName}</b> role at <b class="hj-capitalize">${jobInfo.company}</b> based on the job description:</p>`;
       openingPrompt = 'match 3 requirements from the job description with Jules skills. no preface.';
     }
 
 
-    this.__addAssistantMessage(openingMsg, false, 20);
+    this.__addAssistantMessage(openingMsg, false, 30);
     this._gtp.ask(openingPrompt, this.jobName).then((answer) => {
 
       const f = () => {
@@ -94,7 +93,7 @@ export class GptComponent implements OnInit {
     }
 
     this.enableTyping = false;
-    let contentLenght = content.length;
+    let contentLength = content.length;
     let index = 0; // Current character index
     let tempHTML = ''; // Temporary holder for the content being typed
 
@@ -105,7 +104,7 @@ export class GptComponent implements OnInit {
     }
 
     const typeNext = () => {
-      if (index < contentLenght) {
+      if (index < contentLength) {
         const char = content[index];
 
         if (char === '<') {
@@ -131,7 +130,7 @@ export class GptComponent implements OnInit {
         this.typingTimeout = setTimeout(typeNext, typingSpeed);
       } else {
         this.enableTyping = true;
-        setTimeout(() => this.inputTextField.nativeElement.focus(), 0);
+        // setTimeout(() => this.inputTextField.nativeElement.focus(), 0);
       }
 
       this.scrollToBottom();
@@ -141,12 +140,17 @@ export class GptComponent implements OnInit {
 
   }
 
+  isTypingEnabled() {
+    return this.enableTyping && !this.isWaitingOnGPT;
+  }
+
 
   send(text: string = '') {
-    if (!this.inputText && !text) return;
+    if (!this.isTypingEnabled() || (!this.inputText && !text)) return;
     this.addUserMessage(text || this.inputText);
     this.ask(text || this.inputText);
     this.inputText = '';
+    setTimeout(() => this.scrollToBottom(), 300);
   }
 
   async ask(msg: string) {
