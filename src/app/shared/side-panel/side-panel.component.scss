@@ -1,0 +1,64 @@
+$accent-color: #814DFE;
+$accent-color-darker: darken($accent-color, 30%);
+$accent-color-light: lighten($accent-color, 30%);
+$text-color: #333;
+
+
+.side-panel {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: -100%;
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+
+  width: 50%;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s ease;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.side-panel.open {
+  right: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background: $accent-color;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+
+  .btn {
+    color: #fff;
+    margin-right: auto;
+    flex-shrink: 0;
+    font-size: 1.5rem;
+
+  }
+
+  .text {
+    text-align: center;
+    // font-size: 1.2rem;
+    color: white;
+    flex: 1;
+
+    span {
+      color: $accent-color-light;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}

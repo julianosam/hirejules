@@ -3,6 +3,7 @@
     <div class="logo">Jules<span>GPT</span></div>
     <div class="links">
         <!-- <a href="#"><i class="bi bi-person-circle"></i><div class="hide-sm">Portfolio</div></a> -->
+        <a (click)="sidePanel.open('/resume.pdf')"><i class="bi bi-file-pdf"></i><div class="hide-sm">Interactive Resume</div></a>
         <a href="https://www.linkedin.com/in/julianosam/" target="_blank"><i class="bi bi-linkedin"></i><div class="hide-sm">LinkedIn</div></a>
         <a href="https://github.com/julianosam/hirejules" target="_blank"><i class="bi bi-github"></i><div class="hide-sm">Source</div></a>
     </div>
@@ -52,3 +53,5 @@
     </div>
 
 </section>
+
+<hj-side-panel #sidePanel (onAskGPT)="send($event)"></hj-side-panel>

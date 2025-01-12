@@ -3,12 +3,13 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { GptService } from '../../shared/gpt.service';
+import { SidePanelComponent } from '../../shared/side-panel/side-panel.component';
 
 @Component({
   selector: 'hj-gpt',
   templateUrl: './gpt.component.html',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, SidePanelComponent],
   providers: [{ provide: GptService, useClass: GptService }],
   styleUrls: ['./gpt.component.scss']
 })
@@ -35,20 +36,20 @@ export class GptComponent implements OnInit {
 
   ngOnInit() {
     this.jobName = this._route.snapshot.queryParamMap.get('jobName') || '';
-    this.init();
+    // this.init();
   }
 
   async init() {
 
     const jobInfo = this.extractCompanyAndJob(this.jobName);
     let openingMsg = `<p>Hello! I'm Jules' personal assistant. I can answer questions about Jules and his outstanding professional career. </p>
-      <p>Here are 3 reasons why he is the best fit for your company:</p>`;
-    let openingPrompt = `3 reasons why Jules is the best fit`;
+      <p>Here are 5 reasons why he is the best fit for your company:</p>`;
+    let openingPrompt = `5 reasons why Jules is the best fit`;
 
     if (jobInfo) {
       openingMsg = `<p>Hello <b class="hj-capitalize">${jobInfo.company}</b> team! I'm Jules' personal assistant. I can answer questions about Jules and his outstanding professional career.</p>
-      <p>Here are 3 reasons why he is the best fit for the <b class="hj-capitalize">${jobInfo.jobName}</b> role at <b class="hj-capitalize">${jobInfo.company}</b> based on the job description:</p>`;
-      openingPrompt = 'match 3 requirements from the job description with Jules skills. no preface.';
+      <p>Here are 5 reasons why he is the best fit for the <b class="hj-capitalize">${jobInfo.jobName}</b> role at <b class="hj-capitalize">${jobInfo.company}</b> based on the job description:</p>`;
+      openingPrompt = 'match 5 requirements from the job description with Jules skills. no preface.';
     }
 
 
