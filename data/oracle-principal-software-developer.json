@@ -1,0 +1,37 @@
+{
+  "name": "oracle-principal-software-developer",
+  "company": "Oracle",
+  "title": "Principal Software Developer",
+  "jobSummary": "Responsible for designing, developing, and debugging software applications or operating systems, particularly for large-scale, highly available distributed systems and cloud services. Join the OCI's OLTP organization to build next-generation cloud Data platforms and centralized database store for Oracle Public Cloud.",
+  "hardSkills": [
+    "C, C++, or Java",
+    "Scripting languages (Python, Perl, etc.)",
+    "Data structures and algorithms",
+    "Operating systems",
+    "Distributed systems and cloud services",
+    "Networking protocols (TCP/IP, HTTP)",
+    "Databases, NoSQL systems, and storage technologies",
+    "Distributed persistence technologies",
+    "Troubleshooting and performance tuning",
+    "Experience building multi-tenant virtualized infrastructure"
+  ],
+  "softSkills": [
+    "Self-motivation",
+    "Problem-solving",
+    "Adaptability",
+    "Collaboration",
+    "Strong communication skills"
+  ],
+  "candidateProfile": {
+    "experience": "10+ years of delivering and operating large-scale, highly available distributed systems and/or cloud services",
+    "language": "English (read, write, and speak fluently)",
+    "workAuthorization": "No security clearance required"
+  },
+  "responsibilities": [
+    "Define and evolve standard practices and procedures",
+    "Design and develop software for major components of Oracle’s Cloud Infrastructure",
+    "Troubleshoot and debug software applications",
+    "Contribute to the development of distributed database systems and cloud services"
+  ],
+  "experience": "Professional level with 10+ years of relevant experience"
+}

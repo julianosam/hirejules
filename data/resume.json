@@ -1,0 +1,158 @@
+{
+  "profile": {
+    "name": "Jules Sanches",
+    "title": "Principal Software Engineer | Tech Lead",
+    "summary": "Experienced leader with 20+ years driving impactful software solutions and fostering innovation. Passionate about team growth, mentorship, and a people-first approach. Beyond work, I volunteer, create music, and compete in padel.",
+    "contact": {
+      "location": "Austin, Texas - USA",
+      "website": "https://hire.julessanches.com",
+      "phone": "+1 678-643-0950",
+      "email": "julessanches@outlook.com"
+    }
+  },
+  "skills": [
+    "Java, Spring (16 yrs)",
+    "JavaScript, Node.js (14 yrs)",
+    "TypeScript, React, Angular, Vue (10 yrs)",
+    "Python/Django (3 years)",
+    "C/C++ (7 years)",
+    "Kotlin, Android, iOS (4 years)",
+    "AWS, Docker, Kubernetes (8 yrs)",
+    "Kafka, Elasticsearch (8 yrs)",
+    "Microservices (12 years)",
+    "Linux/Embedded (6 years)",
+    "Architecture/Design (10 years)",
+
+    "REST, GraphQL, gRPC (10 years)",
+    "SaaS, PaaS, SOA",
+
+
+    "CI/CD, Github, Gitlab, Jenkins, Docker, Kubernetes, AWS, Azure, GCP (10 years)",
+
+    "Elasticsearch, Redis, Elasticache, RDS, DynamoDB, S3, SQS, SNS (8 years)",
+
+    "SQL, MySQL, Oracle",
+    "NoSQL, Mongo",
+    "Redshift, Neo4J, Snowflake",
+
+    "Team Leadership, Coaching, Mentoring (12 years)",
+    "Agile, Scrum, Kanban (10 years)"
+  ],
+  "education": [
+    {
+      "degree": "MS in Computer Science - Machine Learning",
+      "institution": "Georgia Tech",
+      "location": "Online",
+      "year": "In progress, expected 2025"
+    },
+    {
+      "degree": "BS in Computer Science",
+      "institution": "PUCRS",
+      "location": "Brazil",
+      "year": "2010"
+    },
+    {
+      "degree": "Associate Degree in Information Technology",
+      "institution": "Alcides Maya",
+      "location": "Brazil",
+      "year": "2004"
+    },
+    {
+      "certification": "Java Spring Certified Professional",
+      "institution": "Pivotal",
+      "year": "2018"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Principal Software Engineer",
+      "company": "Snaplogic Inc.",
+      "location": "Remote, US",
+      "dates": "Jan 2024 - present",
+      "tech_stack": "Java, Spring, Spring Boot, Python, MySQL, Oracle, MongoDB, Amazon Redshift, DynamoDB, Snowflake, Kafka, Spark, Flink, Hadoop, Node.js, Typescript, Angular, CSS, HTML, AWS RDS, AWS S3, AWS SQS, AWS SNS, Github, Jenkins, Junit, Mockito, Jest, Mocha, Jasmine, TDD, Docker, Kubernetes",
+      "achievements": [
+        "Led a 5-engineer team to integrate GenAI APIs (OpenAI, AWS, GCP) using Java and Python.",
+        "Created a conversational UI for defining ETL pipelines through natural language, automating backend descriptor generation.",
+        "Designed and maintained backend systems to execute user-defined ETL pipelines, integrating a visual UI with scalable infrastructure.",
+        "Delivered scalable solutions integrating data pipelines using Kafka, Spark, Flink, Snowflake, and Redshift."
+      ]
+    },
+    {
+      "role": "Tech Lead",
+      "company": "Seesaw Learning",
+      "location": "Remote, US",
+      "dates": "Sep 2022 - Apr 2023",
+      "tech_stack": "Python, Django, Node.js, Typescript, Angular, React, CSS, HTML, Elasticsearch, AWS EC2, AWS DynamoDB, AWS S3, AWS SQS, AWS SNS, API Gateway, Elastic Load Balancer (ELB), CloudFront, Github, Jest, Mocha, Jasmine, TDD, Docker",
+      "achievements": [
+        "Developed engaging and productive Ed Tech solutions for kids, teachers, and parents using Python, React.js, Android, iOS, AWS, Rockset, and Dynamo DB.",
+        "Unified 3 codebases into a streamlined TypeScript/React app for iOS, Android, and web, aligning roadmaps across 5 feature teams.",
+        "Developed custom REST and GraphQL APIs, ensuring smooth delivery through requirement gathering and expectation setting.",
+        "Created an automatic folder generator, tripling adoption and demonstrating product-focused innovation.",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions."
+      ]
+    },
+    {
+      "role": "Software Engineer (L5)",
+      "company": "Instacart Inc.",
+      "location": "Remote, US",
+      "dates": "Nov 2021 - Apr 2022",
+      "tech_stack": "Ruby, Node.js, Typescript, Angular, React, CSS, HTML, AWS EC2, AWS S3, AWS SQS, AWS SNS, API Gateway, Github, Docker",
+      "achievements": [
+        "Led backend API design for a B2B retailer platform.",
+        "Streamlined white-labeled solutions for scalability."
+      ]
+    },
+    {
+      "role": "Principal Software Engineer",
+      "company": "ADP",
+      "location": "Atlanta, US",
+      "dates": "Jan 2013 - Sep 2021",
+      "tech_stack": "Java, Spring, Tomcat, Spring Boot, MySQL, Oracle, Neo4J, MongoDB, Kafka, Spark, Node.js, Typescript, Angular, CSS, HTML, AWS Lex, ChatBots, Elasticsearch, AWS, AWS RDS, AWS Lambda, AWS EC2, AWS S3, AWS SQS, AWS SNS, API Gateway, VPC, CloudFormation, Elastic Load Balancer (ELB), CloudFront, Bitbucket, Github, Jenkins, Junit, Mockito, Jest, Mocha, Jasmine, TDD, Docker, Kubernetes, EKS",
+      "achievements": [
+        "Transformed 20+ legacy payroll systems into modern Java/Spring Boot microservices.",
+        "Built a data pipeline for post-payroll analysis using Kafka, Spark, S3 and Neo4J enabling AI insights and payroll debugging.",
+        "Delivered a $200M revenue-generating enterprise document storage system integrated with 10+ global HCM products.",
+        "Modernized a JSF monolith into 15+ Java/Spring REST APIs, boosting SaaS capabilities and B2B partnerships.",
+        "Advocated TDD and BDD in Agile processes, driving continuous delivery excellence.",
+        "Reviewed technical designs across 12 teams as part of ADP's architecture board.",
+        "Managed three global cross-functional teams."
+      ]
+    },
+    {
+      "role": "Software Engineering Manager/Architect",
+      "company": "Synergy Embedded",
+      "location": "Porto Alegre, Brazil",
+      "dates": "Feb 2012 - Jan 2015",
+      "tech_stack": "C, C++, Linux, Node.js, Javascript, CSS, HTML, MongoDB",
+      "achievements": [
+        "Architected a Smart Street Light system using Zigbee mesh networks.",
+        "Hired and managed 10+ software engineers.",
+        "Authored a framework in C++ reducing testing costs by 60%."
+      ]
+    }
+  ],
+  "other_experience": [
+    {
+      "role": "Embedded Systems Engineer",
+      "company": "Digitel S/A",
+      "location": "Porto Alegre, Brazil",
+      "dates": "Apr 2008 - Aug 2011",
+      "tech_stack": "C, C++, Linux, PowerPC, Micro-controllers",
+      "achievements": [
+        "Coded firmware for enterprise network devices.",
+        "Ported the Linux kernel to a re-usable PowerPC architecture."
+      ]
+    },
+    {
+      "role": "Business Owner/Partner",
+      "company": "Powertech Informatica",
+      "location": "Triunfo, Brazil",
+      "dates": "Dec 2004 - Dec 2005",
+      "tech_stack": "PHP, Apache, MySQL, CSS, Javascript, HTML",
+      "achievements": [
+        "Assembled and sold computers for personal and commercial use.",
+        "Coded an e-commerce website using PHP, Apache, and MySQL."
+      ]
+    }
+  ]
+}

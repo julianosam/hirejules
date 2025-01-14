@@ -1,0 +1,46 @@
+{
+  "id": "airbnb-staff-software-engineer-booking",
+  "company": "Airbnb",
+  "title": "Staff Software Engineer, Booking",
+  "originalUrl": "https://careers.airbnb.com/positions/6372534/",
+  "jobSummary": "As a Staff Software Engineer on Airbnb's Booking team, you will lead the development and refinement of major subsystems that power Airbnb bookings. Your experience with distributed systems and business workflow systems will be pivotal in transforming the booking ecosystem.",
+  "responsibilities": [
+    "Lead booking engineering projects to improve the end user experience, system reliability, and performance.",
+    "Mentor, guide, advocate, and support the career growth of individual contributors.",
+    "Write and review technical designs that solve large, open-ended foundational technical problems without clearly-known solutions.",
+    "Collaborate with other engineers and cross-functional partners across Bookings and organizations such as Payments and Trust to align on long-term technical solutions.",
+    "Be an advocate for our customers by influencing cross-functional partners across Product & Design teams."
+  ],
+  "requirements": [
+    "BS, MS, or Ph.D. in computer science or related field, or equivalent work experience.",
+    "8+ years of relevant engineering hands-on work experience.",
+    "Experience building Booking/Ordering or relevant systems.",
+    "Strong coding abilities and experience with architectural patterns of large, high-scale applications.",
+    "Experience architecting, building, and maintaining highly available services in a large service-oriented architecture (SOA).",
+    "Familiarity with patterns, libraries, and frameworks for building and testing services, and service-to-service communication.",
+    "Experience in partnering with other leaders in setting product strategy.",
+    "Shipped several large-scale projects with multiple dependencies across teams.",
+    "Technical leadership and strong communication skills with the ability to lead other experienced engineers."
+  ],
+  "technologies": [
+    "Distributed systems",
+    "Service-oriented architecture (SOA)",
+    "Patterns, libraries, and frameworks for building and testing services",
+    "Service-to-service communication"
+  ],
+  "softSkills": [
+    "Leadership",
+    "Mentoring",
+    "Collaboration",
+    "Customer advocacy",
+    "Strategic thinking",
+    "Communication"
+  ],
+  "hardSkills": [
+    "Software engineering",
+    "System architecture design",
+    "High-scale application development",
+    "Service-oriented architecture (SOA)",
+    "Technical design writing and review"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "affirm-staff-software-engineer-storage-and-replication",
+  "company": "Affirm",
+  "title": "Staff Software Engineer (Storage And Replication)",
+  "jobSummary": "Affirm is seeking a Staff Software Engineer to join the Storage & Replication team, responsible for the infrastructure and services that power Affirm’s critical data pipelines, providing access to replicated data across the organization.",
+  "hardSkills": [
+    "Experience with OLAP systems and cloud data warehouses",
+    "Knowledge of online storage systems and data replication processes",
+    "Proficiency in programming languages such as Python, Java, or Scala",
+    "Experience with data lake architectures and data warehousing solutions",
+    "Understanding of data security and compliance standards"
+  ],
+  "softSkills": [
+    "Strong technical leadership and mentorship abilities",
+    "Excellent communication skills",
+    "Ability to collaborate with cross-functional teams",
+    "Innovative mindset with a focus on continuous improvement",
+    "Strong problem-solving and analytical skills"
+  ],
+  "candidateProfile": {
+    "experience": "8+ years in software engineering with 2+ years in technical leadership roles, focusing on data infrastructure and cloud data warehousing solutions.",
+    "education": "Bachelor's degree in Computer Science or related field, or equivalent practical experience.",
+    "qualities": [
+      "Community builder with strong collaboration skills",
+      "Desire to mentor and grow team members",
+      "Ability to articulate technical concepts to diverse audiences",
+      "Passionate about delivering honest financial products",
+      "Commitment to building scalable and efficient data infrastructure"
+    ]
+  },
+  "responsibilities": [
+    "Influence technical strategy for Affirm’s Cloud Data Warehouse",
+    "Design and develop systems that enhance data value within a secure, scalable tech stack",
+    "Stay ahead of industry trends in analytics infrastructure",
+    "Collaborate with peers on projects that drive business results",
+    "Contribute to the improvement of team quality standards and development processes"
+  ],
+  "experience": [
+    "8+ years in software engineering with 2+ years in technical leadership roles",
+    "Experience with OLAP systems and cloud data warehouses",
+    "Knowledge of online storage systems and data replication processes",
+    "Proficiency in programming languages such as Python, Java, or Scala",
+    "Experience with data lake architectures and data warehousing solutions",
+    "Understanding of data security and compliance standards"
+  ]
+}

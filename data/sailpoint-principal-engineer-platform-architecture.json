@@ -1,0 +1,44 @@
+{
+  "name": "sailpoint-principal-engineer-platform-architecture",
+  "company": "SailPoint",
+  "title": "Principal Engineer - Platform Architecture",
+  "jobSummary": "SailPoint is seeking a Principal Engineer to lead the platform architecture team, focusing on designing and implementing scalable and secure identity management solutions.",
+  "hardSkills": [
+    "Extensive experience in software architecture and design",
+    "Proficiency in programming languages such as Java or Python",
+    "Experience with cloud platforms like AWS or Azure",
+    "Strong understanding of security protocols and identity management",
+    "Knowledge of microservices and distributed systems"
+  ],
+  "softSkills": [
+    "Leadership and mentoring abilities",
+    "Excellent communication and collaboration skills",
+    "Strong analytical and problem-solving skills",
+    "Ability to drive strategic initiatives",
+    "Adaptability to evolving technologies and requirements"
+  ],
+  "candidateProfile": {
+    "experience": "Extensive experience in software architecture with a focus on identity management solutions.",
+    "education": "Bachelor's or Master's degree in Computer Science or a related field is preferred.",
+    "qualities": [
+      "Visionary leader with a strategic mindset",
+      "Passionate about security and identity management",
+      "Strong problem-solving and analytical skills",
+      "Effective communicator and collaborator"
+    ]
+  },
+  "responsibilities": [
+    "Lead the design and implementation of platform architecture",
+    "Ensure scalability, security, and reliability of identity management solutions",
+    "Collaborate with cross-functional teams to align architecture with business goals",
+    "Mentor and guide engineering teams",
+    "Stay abreast of emerging technologies and industry best practices"
+  ],
+  "experience": [
+    "Extensive experience in software architecture and design",
+    "Proficiency in programming languages such as Java or Python",
+    "Experience with cloud platforms like AWS or Azure",
+    "Strong understanding of security protocols and identity management",
+    "Knowledge of microservices and distributed systems"
+  ]
+}

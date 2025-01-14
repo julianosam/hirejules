@@ -1,0 +1,71 @@
+{
+  "id": "favor-technical-lead-sr-staff-software-engineer",
+  "company": "Favor",
+  "title": "Technical Lead – Sr. Staff Software Engineer",
+  "originalUrl": "https://www.favordelivery.com/job/technical-lead-sr-staff-software-engineer",
+  "jobSummary": "As a Senior Staff Tech Lead at Favor, you will be responsible for all phases of development, testing, and deployment of our applications. You will work closely with our product and operations teams to understand customer needs, build simple solutions to complex problems, and deliver delightful experiences to all our users.",
+  "responsibilities": [
+    "Responsible for defining solution architecture to include evaluation, selection, and integration of necessary technical components that realize the defined functional, non-functional, and security requirements.",
+    "Act as the technical point of contact for your given pillar of Favor Engineering.",
+    "Collaborate with other technical leads and engineers across all disciplines to design unified cross-squad solutions and help manage the technical debt roadmap.",
+    "Work with product partners across multiple squads to understand and solve complex business problems, by presenting various solutions and technical concepts in a comprehensible manner and then be able to break them down into manageable iterations for a smooth product flow.",
+    "Get hands-on coding with a strong emphasis on architectural changes that address tech debt and increase developer productivity.",
+    "Lead and participate in troubleshooting application incidents, resolving deployment issues, integration failures, ability to mine the logs, coordinate cross-functional triage, and provide long-term implementation guidance.",
+    "Eliminate barriers to scale through technology and process and providing building blocks of first-class applications and distributed services.",
+    "Understand company and squad goals, and develop technical solutions, vision, and strategy to advance the company's priorities.",
+    "Challenge the status quo and bring your experiences to look at things differently and identify new technologies, strategies, and processes that can help provide business value.",
+    "Define and contribute to standards that improve developer workflows, recommend best practices, and help mentor junior engineers on the team to grow their technical expertise.",
+    "Be an advocate for DevOps solutions, automation, and maintaining our CI/CD pipelines."
+  ],
+  "requirements": [
+    "A related degree or comparable formal training, certification, or work experience.",
+    "10+ years of software engineering experience.",
+    "Experience or familiarity with one or more of the following technologies: Java, Kotlin, Scala, PHP, Python, Node.js, C#, MySQL, Postgres, DynamoDB, DocumentDB/MongoDB, Kafka, Docker, Kubernetes, Terraform, AWS, Elasticsearch.",
+    "Ability to get hands-on and write clean, well-structured code but also be able to take a step back to focus on product strategy and execution.",
+    "Ability to lead larger initiatives working with the product, design, and engineering teams.",
+    "Strong understanding of all aspects of software engineering including test automation techniques, data engineering, security, and DevOps.",
+    "Ability to gather and define software requirements considering multiple patterns and strategies to build efficient solutions.",
+    "Knowledge of how different parts of a system architecture will work together and can diagnose issues within the system.",
+    "Ability to communicate difficult technical concepts in precise, concise, and unambiguous terms.",
+    "Ability to interact with vendors, external partners, suppliers to evaluate tooling, products, and integration solutions meeting technical and security standards."
+  ],
+  "technologies": [
+    "Java",
+    "Kotlin",
+    "Scala",
+    "PHP",
+    "Python",
+    "Node.js",
+    "C#",
+    "MySQL",
+    "Postgres",
+    "DynamoDB",
+    "DocumentDB",
+    "MongoDB",
+    "Kafka",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "AWS",
+    "Elasticsearch"
+  ],
+  "softSkills": [
+    "Leadership",
+    "Collaboration",
+    "Communication",
+    "Problem-solving",
+    "Mentoring",
+    "Adaptability",
+    "Strategic thinking"
+  ],
+  "hardSkills": [
+    "Solution architecture",
+    "Software development",
+    "Test automation",
+    "Data engineering",
+    "Security",
+    "DevOps",
+    "CI/CD pipeline management",
+    "Technical debt management"
+  ]
+}

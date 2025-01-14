@@ -1,12 +1,9 @@
-$accent-color: #814DFE;
-$accent-color-darker: darken($accent-color, 30%);
-$accent-color-light: lighten($accent-color, 30%);
-$text-color: #333;
+@import "variables.scss";
 
 @keyframes slideRightToLeft {
     from {
         opacity: 0;
-        transform: translateX(5rem);
+        transform: translateX(4rem);
     }
 
     to {
@@ -255,8 +252,11 @@ $text-color: #333;
                 border-color: white;
             }
 
+            opacity: 0;
+            animation: slideRightToLeft .3s ease-in-out forwards;
+            animation-delay: var(--random-delay);
 
-            animation: slideRightToLeft 0.3s ease-out;
+        
 
         }
     }
@@ -264,6 +264,7 @@ $text-color: #333;
     .input-bar {
         display: flex;
         justify-content: center;
+        background-color: white;
 
         .text {
             flex: 1;
@@ -273,7 +274,7 @@ $text-color: #333;
                 border: 2px solid transparent;
                 outline: none;
                 /* Remove the default outline */
-                background-color: white;
+                background-color: #eee;
                 border-radius: 2rem;
                 height: 3rem;
                 padding: 0 1rem;

@@ -1,0 +1,44 @@
+{
+  "name": "circle-staff-software-engineer",
+  "company": "Circle",
+  "title": "Staff Software Engineer",
+  "jobSummary": "Circle is seeking a Staff Software Engineer to join their team, focusing on building and maintaining scalable and reliable software solutions.",
+  "hardSkills": [
+    "Proficiency in modern programming languages",
+    "Experience with cloud-based services and infrastructure",
+    "Strong understanding of software development best practices",
+    "Experience with microservices architecture",
+    "Knowledge of database systems and data modeling"
+  ],
+  "softSkills": [
+    "Strong problem-solving abilities",
+    "Excellent communication skills",
+    "Ability to work collaboratively in a team environment",
+    "Adaptability to changing technologies and environments",
+    "Commitment to continuous learning and improvement"
+  ],
+  "candidateProfile": {
+    "experience": "Extensive experience in software engineering with a focus on building scalable and reliable systems.",
+    "education": "Bachelor's or Master's degree in Computer Science or a related field is preferred.",
+    "qualities": [
+      "Passionate about technology and innovation",
+      "Dedicated to delivering high-quality software solutions",
+      "Strong analytical and problem-solving skills",
+      "Effective communicator and collaborator"
+    ]
+  },
+  "responsibilities": [
+    "Design, develop, and maintain scalable software solutions",
+    "Collaborate with cross-functional teams to define and implement new features",
+    "Ensure the reliability and performance of applications",
+    "Participate in code reviews and provide constructive feedback",
+    "Stay updated with emerging technologies and industry trends"
+  ],
+  "experience": [
+    "Proficiency in modern programming languages",
+    "Experience with cloud-based services and infrastructure",
+    "Strong understanding of software development best practices",
+    "Experience with microservices architecture",
+    "Knowledge of database systems and data modeling"
+  ]
+}

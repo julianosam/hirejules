@@ -1,0 +1,44 @@
+{
+  "name": "veho-technologies-software-engineer",
+  "company": "Veho Technologies",
+  "title": "Software Engineer",
+  "jobSummary": "Veho Technologies is seeking a Software Engineer to join our team in building innovative solutions for the logistics industry. The ideal candidate will have a strong background in software development and a passion for creating scalable and efficient systems.",
+  "hardSkills": [
+    "Proficiency in programming languages such as Python, Java, or C++",
+    "Experience with web development frameworks and tools",
+    "Knowledge of database systems and SQL",
+    "Understanding of software development methodologies and best practices",
+    "Familiarity with cloud platforms like AWS or Azure"
+  ],
+  "softSkills": [
+    "Strong problem-solving abilities",
+    "Excellent communication and teamwork skills",
+    "Ability to work in a fast-paced, dynamic environment",
+    "Attention to detail and commitment to quality",
+    "Adaptability and willingness to learn new technologies"
+  ],
+  "candidateProfile": {
+    "experience": "2+ years of experience in software development, preferably in a startup or agile environment.",
+    "education": "Bachelor's degree in Computer Science, Engineering, or a related field.",
+    "qualities": [
+      "Self-motivated and proactive",
+      "Passionate about technology and innovation",
+      "Ability to think critically and creatively",
+      "Strong work ethic and dedication to achieving results"
+    ]
+  },
+  "responsibilities": [
+    "Design, develop, and maintain software applications and systems",
+    "Collaborate with cross-functional teams to define and implement new features",
+    "Write clean, efficient, and well-documented code",
+    "Participate in code reviews and provide constructive feedback",
+    "Troubleshoot and resolve software defects and issues"
+  ],
+  "experience": [
+    "Experience with version control systems like Git",
+    "Familiarity with continuous integration and deployment pipelines",
+    "Understanding of RESTful APIs and microservices architecture",
+    "Experience with front-end technologies such as HTML, CSS, and JavaScript",
+    "Knowledge of containerization tools like Docker"
+  ]
+}

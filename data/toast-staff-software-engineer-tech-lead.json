@@ -1,0 +1,45 @@
+{
+  "name": "toast-staff-software-engineer-tech-lead",
+  "company": "Toast",
+  "title": "Staff Software Engineer, Tech Lead",
+  "jobSummary": "Toast is seeking a Staff Software Engineer, Tech Lead to join the Customer Communications Platform Team, responsible for building and maintaining a reliable communication and notification system to effectively engage with customers across multiple channels.",
+  "hardSkills": [
+    "Proficiency in Java, Kotlin, or other object-oriented languages",
+    "Experience with backend technologies such as GraphQL and microservices",
+    "Strong SQL knowledge and experience with data analysis tools (e.g., Zeppelin, Hex)",
+    "Experience with continuous delivery of high-quality, reliable, and scalable services",
+    "Familiarity with Agile/Scrum methodologies"
+  ],
+  "softSkills": [
+    "Strong collaboration skills with UX, PM, QA, and Engineering teams",
+    "Ability to lead and mentor other engineers",
+    "Excellent problem-solving abilities",
+    "Effective communication skills",
+    "Passion for delivering impactful and scalable solutions"
+  ],
+  "candidateProfile": {
+    "experience": "Extensive experience in software engineering with a focus on backend services and APIs, particularly in building and scaling critical platform features.",
+    "education": "Bachelor's or Master's degree in Computer Science or a related field is preferred.",
+    "qualities": [
+      "Passionate about writing high-quality code",
+      "Dedicated to building reliable and high-performing communication platforms",
+      "Ability to bring abstract ideas to life",
+      "Champion of best practices such as quality integration and unit testing"
+    ]
+  },
+  "responsibilities": [
+    "Lead the design of critical features to support communication across multiple Toast channels",
+    "Develop an expert understanding of Toast’s communication platform",
+    "Oversee all stages of platform development, including solution design, coding, testing, and maintenance",
+    "Collaborate with cross-functional teams to build best-in-class solutions",
+    "Champion best practices in testing and quality assurance"
+  ],
+  "experience": [
+    "Experience with continuous delivery of high-quality, reliable, and scalable services",
+    "Proficiency in Java, Kotlin, or other object-oriented languages",
+    "Experience with backend technologies such as GraphQL and microservices",
+    "Strong SQL knowledge and experience with data analysis tools",
+    "Experience working in Agile/Scrum teams",
+    "Proven track record in leading the build and scale of critical platform features"
+  ]
+}

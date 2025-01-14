@@ -1,0 +1,61 @@
+{
+  "id": "apple-software-engineer-strategic-data-solutions",
+  "company": "Apple",
+  "title": "Software Engineer - Strategic Data Solutions",
+  "originalUrl": "https://jobs.apple.com/en-us/details/200582950/software-engineer-strategic-data-solutions?team=SFTWR",
+  "jobSummary": "Apple's Strategic Data Solutions (SDS) team is responsible for mitigating fraud, waste, and abuse company-wide while optimizing and empowering our customers and internal partners. The SDS software engineering team is building an environment to enable groundbreaking data analysis over petabytes of data. We work side-by-side with machine learning engineers and implement scalable, easy-to-use systems and tools. We are seeking a customer-focused, passionate, and driven Software Engineer with experience in building analytic tools and solutions.",
+  "responsibilities": [
+    "Developing and implementing production software for preventing fraud",
+    "Responsible for system architecture design",
+    "Working with external infrastructure teams to drive the development of infrastructure needs",
+    "Innovating by recognizing opportunities for automation and tools improvements",
+    "Developing and implementing process improvements to bring efficiency and stability to fraud analytics",
+    "Providing technical leadership for a team of data scientists",
+    "Leading the team to increase the level of maturity and skill in analytical software development",
+    "Responsible for release engineering"
+  ],
+  "requirements": [
+    "Mastery of one of Python, Java, Scala, C++, or equivalent language",
+    "3+ years of experience in software engineering/data science",
+    "Experience building data science or data analysis tools on Hadoop/cloud-based systems",
+    "BS or advanced degree in Computer Science, related field, or equivalent experience",
+    "Some experience with Docker, Kubernetes, or cloud platform deployment",
+    "Experience with relational databases and NoSQL databases",
+    "Demonstrated understanding of the full software development lifecycle",
+    "Excellent problem-solving, critical thinking, and communication skills",
+    "Solid grasp of computer science fundamentals including data structures and algorithms",
+    "Ability to evaluate and apply new technologies in a short time",
+    "Self-motivated, proactive, and solution-oriented"
+  ],
+  "technologies": [
+    "Python",
+    "Java",
+    "Scala",
+    "C++",
+    "Hadoop",
+    "Docker",
+    "Kubernetes",
+    "Relational databases",
+    "NoSQL databases"
+  ],
+  "softSkills": [
+    "Problem-solving",
+    "Critical thinking",
+    "Communication",
+    "Leadership",
+    "Innovation",
+    "Proactiveness",
+    "Solution-oriented mindset"
+  ],
+  "hardSkills": [
+    "Software engineering",
+    "Data science",
+    "System architecture design",
+    "Automation",
+    "Release engineering",
+    "Analytical software development",
+    "Cloud platform deployment",
+    "Full software development lifecycle",
+    "Data structures and algorithms"
+  ]
+}

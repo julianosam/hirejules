@@ -1,0 +1,33 @@
+{
+  "name": "atlassian-principal-software-engineer",
+  "company": "Atlassian",
+  "title": "Principal Full Stack Software Engineer",
+  "jobSummary": "The Principal Full Stack Software Engineer will join the Loom Distribution Engineering team at Atlassian. This team is responsible for building new distribution channels and seamless experiences to help users discover and engage with our products. As the technical lead, you will drive innovation, ensure application quality, and guide technical direction.",
+  "hardSkills": [
+    "10+ years industry experience as a Full Stack Engineer",
+    "Experience with JavaScript, TypeScript, Node.js, and modern front-end frameworks (e.g., React)",
+    "Deep knowledge of systems engineering at scale, including testing, reliability, security, and observability",
+    "Proficiency in GraphQL and scalable web development paradigms"
+  ],
+  "softSkills": [
+    "Ability to communicate complex technical issues to a range of audiences",
+    "Mentorship and growth of junior engineers",
+    "Collaboration with multidisciplinary teams",
+    "Strong problem-solving and leadership capabilities"
+  ],
+  "candidateProfile": {
+    "education": "Bachelors, Masters, or PhD in Computer Science or a related technical field, or equivalent experience",
+    "experience": "10+ years of experience in full stack development and engineering leadership",
+    "expertise": "Proven track record of technical excellence, scalability, and reliability in system design and implementation"
+  },
+  "responsibilities": [
+    "Tackle the largest and most complex technical problems, from design to launch",
+    "Guide the technical direction and implementation of large-scale product features",
+    "Evangelize high technical standards across the organization",
+    "Implement and promote the use of modern tools like GraphQL, Node.js, and React",
+    "Share knowledge and best practices to improve engineering excellence",
+    "Mentor and develop future technical leaders",
+    "Partner with cross-disciplinary leads to define product and technical strategy"
+  ],
+  "experience": "10+ years of industry experience in full stack development with a focus on scalability, testing, and system reliability"
+}

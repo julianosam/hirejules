@@ -1,0 +1,61 @@
+{
+  "id": "favor-staff-software-engineer-back-end",
+  "company": "Favor",
+  "title": "Staff Software Engineer – Back End",
+  "originalUrl": "https://www.favordelivery.com/job/staff-software-engineer-back-end",
+  "jobSummary": "As a Staff Software Engineer at Favor, you will be responsible for all phases of development, testing, and deployment of our web applications, back-end services, databases, and data warehouse. You will work closely with our product and operations teams to understand customer needs, build simple solutions to complex problems, and deliver delightful experiences to all our users.",
+  "responsibilities": [
+    "Recommend changes to processes and tools at the team level based on industry standards, patterns, and practices.",
+    "Lead creation of documentation and provide training around technology stacks and standards.",
+    "Help other engineers understand system/application designs.",
+    "Work with engineering and product management to plan solutions for large features.",
+    "Communicate individual and project-level development statuses, issues, risks, and concerns to technical leadership and management.",
+    "Independently build, diagnose, and fix high-complexity technical issues."
+  ],
+  "requirements": [
+    "8+ years of experience in software engineering.",
+    "Experience in a high-growth startup is a plus.",
+    "Ability to lead larger initiatives working with the product, design, and engineering teams.",
+    "Advanced understanding of software design patterns to write clean, well-structured, idiomatic code leveraging the full power of a language.",
+    "Ability to create solutions to problems under various constraints using novel algorithms and data structures.",
+    "Ability to write atomic tests with minimal side effects.",
+    "Strong understanding of test automation techniques.",
+    "Ability to gather and define software requirements considering multiple patterns and strategies to build efficient solutions.",
+    "Ability to use debugging tools to trace and diagnose issues.",
+    "Expert knowledge of REST + JSON, API versioning strategies, and security best practices.",
+    "Communicates difficult technical concepts in precise, concise, and unambiguous terms.",
+    "Understand database concepts such as joins and indexes and the ability to alter data structures.",
+    "Knowledge of how different parts of a system architecture will work together and can diagnose issues within the system."
+  ],
+  "technologies": [
+    "Kotlin",
+    "Java",
+    "PHP",
+    "Scala",
+    "MySQL",
+    "Postgres",
+    "Kafka",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "AWS",
+    "Elasticsearch",
+    "JUnit",
+    "Jenkins"
+  ],
+  "softSkills": [
+    "Appreciate simple design",
+    "Love to write clean, well-tested code",
+    "Enjoy working with other engineers in a collaborative and iterative environment",
+    "Communicate well with technical and non-technical stakeholders"
+  ],
+  "hardSkills": [
+    "Software engineering",
+    "System/application design",
+    "Development, testing, and deployment of web applications and back-end services",
+    "Database and data warehouse management",
+    "Debugging and issue diagnosis",
+    "Test automation",
+    "API development and security best practices"
+  ]
+}

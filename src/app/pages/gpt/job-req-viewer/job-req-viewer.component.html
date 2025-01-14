@@ -1,0 +1,10 @@
+<div class="side-panel" [class.open]="isOpen">
+    <div class="header">
+        <div class="btn">
+            <button (click)="close()"><i class="bi bi-arrow-left"></i></button>
+        </div>
+    </div>
+    <div class="content">
+        <iframe name="job-req" [src]="jobReqUrl" height="100%"></iframe>
+    </div>
+</div>

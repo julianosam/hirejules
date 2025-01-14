@@ -1,0 +1,45 @@
+{
+  "name": "mongodb-staff-engineer-data-federation-and-online-archive",
+  "company": "MongoDB",
+  "title": "Staff Engineer - Data Federation and Online Archive",
+  "jobSummary": "MongoDB is seeking a Staff Engineer to join the Data Federation and Online Archive team, responsible for building and maintaining services that enable customers to query and manage data across various storage systems seamlessly.",
+  "hardSkills": [
+    "Proficiency in programming languages such as Java, Python, or C++",
+    "Experience with distributed systems and cloud services",
+    "Strong understanding of database internals and query processing",
+    "Familiarity with data storage solutions and data management",
+    "Experience with microservices architecture and RESTful APIs"
+  ],
+  "softSkills": [
+    "Strong problem-solving abilities",
+    "Excellent communication skills",
+    "Ability to work collaboratively in a team environment",
+    "Leadership skills to mentor junior engineers",
+    "Adaptability to evolving technologies and methodologies"
+  ],
+  "candidateProfile": {
+    "experience": "Extensive experience in software engineering with a focus on distributed systems and data management solutions.",
+    "education": "Bachelor's or Master's degree in Computer Science or a related field.",
+    "qualities": [
+      "Passionate about building scalable and reliable data services",
+      "Innovative thinker with attention to detail",
+      "Ability to work independently and as part of a team",
+      "Committed to continuous learning and improvement",
+      "Strong sense of ownership and accountability"
+    ]
+  },
+  "responsibilities": [
+    "Design and implement services for data federation and online archiving",
+    "Collaborate with cross-functional teams to define and execute product roadmaps",
+    "Ensure high performance, scalability, and reliability of services",
+    "Mentor and guide junior engineers",
+    "Stay updated with emerging technologies and industry trends"
+  ],
+  "experience": [
+    "Proficiency in programming languages such as Java, Python, or C++",
+    "Experience with distributed systems and cloud services",
+    "Strong understanding of database internals and query processing",
+    "Familiarity with data storage solutions and data management",
+    "Experience with microservices architecture and RESTful APIs"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "stackadapt-staff-software-engineer-user-data",
+  "company": "StackAdapt",
+  "title": "Staff Software Engineer - User Data",
+  "originalUrl" : "https://jobs.lever.co/stackadapt/6d7346d4-c659-4661-9066-d9353ae4d3bd",
+  "jobSummary": "StackAdapt is seeking a Staff Software Engineer to lead the backend engineering team in integrating data into StackAdapt’s Customer Data Platform (CDP) and architecting scalable low-latency backend systems and data pipelines.",
+  "hardSkills": [
+    "Experience with Go and high-performance databases",
+    "Proven track record of building scalable pipelines and services",
+    "Experience with large data in low-latency environments",
+    "5+ years in software development with distributed systems",
+    "Knowledge of computer science fundamentals, data structures, and algorithms"
+  ],
+  "softSkills": [
+    "Technical leadership in designing scalable solutions",
+    "Mentorship abilities for team growth",
+    "Problem-solving skills",
+    "Collaboration with cross-functional teams",
+    "Adaptability to new technologies"
+  ],
+  "candidateProfile": {
+    "experience": "5+ years in software development, particularly in distributed systems and architecting scalable microservices and data pipelines.",
+    "education": "Bachelor's degree in Computer Science or related field preferred.",
+    "qualities": [
+      "Innovative and thoughtful self-starter",
+      "Enjoys solving complex business problems",
+      "Thrives in fast-paced, collaborative environments",
+      "Demonstrates technical competency",
+      "Open to testing and trying new technologies"
+    ]
+  },
+  "responsibilities": [
+    "Integrate data into StackAdapt’s Customer Data Platform (CDP)",
+    "Architect scalable low-latency backend systems and data pipelines",
+    "Provide technical leadership in designing scalable solutions and best practices",
+    "Promote software development best practices and conduct rigorous code reviews",
+    "Identify and solve technical challenges"
+  ],
+  "experience": [
+    "Adtech or Martech experience is an asset",
+    "Experience with Go and high-performance databases",
+    "Proven track record of building scalable pipelines and services",
+    "Experience with large data in low-latency environments",
+    "5+ years in software development with distributed systems",
+    "Knowledge of computer science fundamentals, data structures, and algorithms"
+  ]
+}

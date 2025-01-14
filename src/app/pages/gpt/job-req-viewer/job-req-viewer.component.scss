@@ -1,0 +1,28 @@
+@import "variables.scss";
+
+:host {
+  .side-panel {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: -100%;
+  
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  
+    width: 50%;
+    height: 100vh;
+    background: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .side-panel.open {
+    right: 0;
+  }
+  
+}

@@ -4,13 +4,13 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 
 @Component({
-  selector: 'hj-side-panel',
+  selector: 'hj-resume-viewer',
   standalone: true,
   imports: [PdfViewerModule],
-  templateUrl: './side-panel.component.html',
-  styleUrl: './side-panel.component.scss'
+  templateUrl: './resume-viewer.component.html',
+  styleUrl: './resume-viewer.component.scss'
 })
-export class SidePanelComponent {
+export class ResumeViewerComponent {
 
   isOpen = false;
   pdfSrc = '';

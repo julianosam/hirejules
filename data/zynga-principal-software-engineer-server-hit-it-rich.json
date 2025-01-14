@@ -1,0 +1,49 @@
+{
+    "id": "zynga-principal-software-engineer-server-hit-it-rich",
+    "company": "Zynga",
+    "title": "Principal Software Engineer (Server) - Hit It Rich!",
+    "originalUrl": "https://job-boards.greenhouse.io/zyngacareers/jobs/5398979004?gh_src=503a64f04us",
+    "jobSummary": "Zynga is seeking a Principal Software Engineer to join the Hit It Rich! team. This role involves defining, architecting, and developing server-side features and gameplay functionality, integrating new technologies, optimizing code for high-performance simulations, and mentoring other engineers.",
+    "responsibilities": [
+      "Define, architect, and develop features and gameplay functionality in PHP.",
+      "Develop and integrate new technologies and tools, working with content teams.",
+      "Dive into the internals of core systems to extend them as needed.",
+      "Proactively optimize code and memory for high-performance simulations with tight constraints.",
+      "Scope out large tasks and systems with minimal direction, and help with delegation of that work.",
+      "Work closely with other engineers to lead multi-week or month-long efforts.",
+      "Give team and/or divisional tech talks on architectures that you've built.",
+      "Identify and help to improve team and process inefficiencies.",
+      "Mentor other engineers."
+    ],
+    "requirements": [
+      "B.Sc. in Computer Science, Engineering, or equivalent education/work experience.",
+      "6+ years of backend software development experience.",
+      "Expert knowledge in PHP or a similar programming language.",
+      "Experience with cloud computing, preferably AWS.",
+      "Solid foundation in data structures, algorithms, and software methodologies.",
+      "Excellent communication skills and comfort working in a collaborative environment."
+    ],
+    "technologies": [
+      "PHP",
+      "AWS",
+      "Cloud computing",
+      "Data structures",
+      "Algorithms",
+      "Software methodologies"
+    ],
+    "softSkills": [
+      "Communication",
+      "Collaboration",
+      "Mentoring",
+      "Problem-solving",
+      "Leadership"
+    ],
+    "hardSkills": [
+      "Backend software development",
+      "System architecture design",
+      "Code optimization",
+      "High-performance simulations",
+      "Task scoping and delegation"
+    ]
+  }
+  

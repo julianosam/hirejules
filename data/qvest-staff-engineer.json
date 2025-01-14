@@ -1,0 +1,51 @@
+{
+  "name": "qvest-staff-engineer",
+  "company": "Qvest",
+  "title": "Staff Engineer",
+  "jobSummary": "Qvest is seeking an innovative and thoughtful self-starter to join their Innovation and Development Center (IDC) in Austin, Texas. The role involves shaping best practices, mentoring team members, working on varied projects, and influencing technologies and solutions for both internal and external clients.",
+  "hardSkills": [
+    "8-12+ years in software development, including team experience",
+    "Expertise in Java, JavaScript/Typescript, or Python ecosystems",
+    "Experience with agile methodologies such as Scrum, Kanban, or XP",
+    "Definition, utilization, and implementation of CI/CD pipelines",
+    "Experience with SOA, Microservices, or similar architectural patterns",
+    "Experience with enterprise application integration",
+    "Knowledge of typical AuthN/AuthZ methods and products",
+    "Data management experience, including database schema design and transaction management"
+  ],
+  "softSkills": [
+    "Innovative and thoughtful self-starter",
+    "Ability to mentor and grow team members",
+    "Strong collaboration skills with leadership and clients",
+    "Excellent problem-solving abilities",
+    "Effective communication skills"
+  ],
+  "candidateProfile": {
+    "experience": "8-12+ years in software development with team experience; expertise in Java, JavaScript/Typescript, or Python; experience with agile methodologies and CI/CD pipelines.",
+    "education": "Bachelor's degree in engineering, information systems, computer science, business administration, or related fields.",
+    "qualities": [
+      "Innovative and proactive",
+      "Passionate about mentoring and team development",
+      "Strong problem-solving skills",
+      "Effective communicator"
+    ]
+  },
+  "responsibilities": [
+    "Mentor and grow the careers of other team members",
+    "Shape and contribute to the engineering culture",
+    "Work directly with Qvest leadership to impact projects and teams",
+    "Propose technologies for specific projects and define team structures",
+    "Gather, translate, and refine business requirements into deployable systems",
+    "Lead by example through code contributions and continuous improvement"
+  ],
+  "experience": [
+    "8-12+ years in software development, including team experience",
+    "Expertise in Java, JavaScript/Typescript, or Python ecosystems",
+    "Experience with agile methodologies such as Scrum, Kanban, or XP",
+    "Definition, utilization, and implementation of CI/CD pipelines",
+    "Experience with SOA, Microservices, or similar architectural patterns",
+    "Experience with enterprise application integration",
+    "Knowledge of typical AuthN/AuthZ methods and products",
+    "Data management experience, including database schema design and transaction management"
+  ]
+}
