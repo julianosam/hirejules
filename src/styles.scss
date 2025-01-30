@@ -79,3 +79,42 @@ ul {
 canvas {
     display: none;
 }
+
+
+.prompts {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+    column-gap: .5rem;
+    row-gap: .5rem;
+    overflow-x: hidden;
+
+    .prompt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: $accent-color-darker;
+        border: 2px solid $accent-color;
+        padding: .25rem 1rem;
+        border-radius: 10rem;
+        cursor: pointer;
+        height: 2rem;
+        white-space: nowrap;
+
+        transition: background-color 200ms ease-in-out;
+
+        // &:hover {
+        //     color: white;
+        //     background-color: $accent-color;
+        //     border-color: white;
+        // }
+
+        // opacity: 0;
+        animation: slideRightToLeft .3s ease-in-out forwards;
+        animation-delay: var(--random-delay);
+
+    
+
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "amazon-sswe",
+  "company": "Amazon",
+  "title": "Software Development Engineer, AWS Alameda",
+  "originalUrl": "https://www.amazon.jobs/en/jobs/2855471/software-development-engineer-aws-alameda",
+  "jobSummary": "AWS Alameda is shaping the future of how Control Planes for AWS Services will be offered. The Alameda team builds innovative and secure technologies on a massive scale that manage the control planes for AWS services, keeping them secure and scalable for customers. As a software development engineer on this team, you will leverage modern technologies and AWS services to empower AWS service teams to be more productive. With dozens of AWS services launched, the team is now working on migrating some of the biggest AWS Services to Alameda.",
+  "responsibilities": [
+    "Leverage modern technologies and AWS services to empower AWS service teams to be more productive.",
+    "Contribute to the centralization of Control Plane development work, saving AWS teams the cost of creating, maintaining, and improving Control Planes.",
+    "Automate the creation and maintenance of infrastructure and software for both the Control Plane and the Data Plane of newly managed services.",
+    "Develop building blocks that fully abstract single functionalities as managed services, extendable to offer custom business logic for specific AWS Services.",
+    "Enable seamless composition of building blocks that work together to provide a full managed AWS service experience."
+  ],
+  "requirements": [
+    "3+ years of non-internship professional software development experience.",
+    "2+ years of non-internship design or architecture experience (design patterns, reliability, and scaling) of new and existing systems.",
+    "Experience programming with at least one software programming language."
+  ],
+  "technologies": [
+    "AWS",
+    "Java",
+    "TypeScript",
+    "AWS Cloud Development Kit (CDK)",
+    "DynamoDB"
+  ],
+  "softSkills": [
+    "Ability to deliver software solutions that solve business problems and delight customers with efficiency and productivity gains.",
+    "Enthusiasm for leveraging modern technologies and AWS services to empower AWS service teams.",
+    "Commitment to building innovative and secure technologies on a massive scale."
+  ],
+  "hardSkills": [
+    "Professional software development experience.",
+    "Design or architecture experience of new and existing systems.",
+    "Proficiency in at least one software programming language."
+  ]
+}

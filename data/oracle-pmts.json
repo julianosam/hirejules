@@ -1,0 +1,46 @@
+{
+    "id": "oracle-principal-member-of-technical-staff",
+    "company": "Oracle",
+    "title": "Principal Member of Technical Staff",
+    "originalUrl": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/272195/?utm_medium=jobshare&utm_source=External+Job+Share",
+    "jobSummary": "We're looking for hands-on engineers with expertise and passion in solving difficult problems in distributed systems, virtualized infrastructure, and highly available services. Engineers at Oracle design and build innovative systems from the ground up, working on ambitious initiatives in Oracle Cloud Infrastructure (OCI).",
+    "responsibilities": [
+      "Define and evolve standard practices and procedures.",
+      "Design and develop software for tasks associated with the development, design, and debugging of software applications or operating systems.",
+      "Own the software design and development for major components of Oracle's Cloud Infrastructure.",
+      "Collaborate in a dynamic and agile environment to build large-scale distributed infrastructure for the cloud."
+    ],
+    "requirements": [
+      "5-12+ years' experience designing, developing, and operating large-scale, highly available distributed systems.",
+      "Strong knowledge in C, C++, or Java, and experience with scripting languages like Python, Perl, etc.",
+      "Demonstrable knowledge of data structures, algorithms, operating systems, distributed systems fundamentals, and cloud-native development.",
+      "Working familiarity with operating system internals, networking protocols (TCP/IP, HTTP), and standard network architectures.",
+      "Strong troubleshooting and performance tuning skills.",
+      "Experience building multi-tenant, virtualized infrastructure is a strong plus."
+    ],
+    "technologies": [
+      "C",
+      "C++",
+      "Java",
+      "Python",
+      "Perl",
+      "Operating Systems",
+      "Networking Protocols (TCP/IP, HTTP)",
+      "Cloud Infrastructure",
+      "Virtualized Infrastructure"
+    ],
+    "softSkills": [
+      "Ability to work in a fast-paced and agile development environment.",
+      "Self-starter and self-motivated attitude.",
+      "Collaboration and teamwork in a diverse and dynamic workplace.",
+      "Commitment to learning and professional growth."
+    ],
+    "hardSkills": [
+      "Designing and developing large-scale distributed systems.",
+      "Debugging and performance tuning.",
+      "Cloud-native development.",
+      "Building multi-tenant, virtualized infrastructure.",
+      "Knowledge of data structures, algorithms, and networking protocols."
+    ]
+  }
+  

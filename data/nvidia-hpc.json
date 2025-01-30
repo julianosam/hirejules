@@ -1,0 +1,46 @@
+{
+    "id": "nvidia-hpc",
+    "company": "NVIDIA",
+    "title": "Senior Software Engineer - HPC",
+    "originalUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer---HPC_JR1979406-1?locations=91336993fab910af6d702b631b94c2de&locationHierarchy2=0c3f5f117e9a0101f6422f0fe79d0000&locationHierarchy1=2fcb99c455831013ea52fb338f2932d8",
+    "jobSummary": "NVIDIA is seeking a Senior Software Engineer to join our High-Performance Computing (HPC) team. The successful candidate will work on developing and optimizing HPC applications, tools, and libraries to leverage NVIDIA GPUs and CPUs, contributing to advancements in scientific computing and AI.",
+    "responsibilities": [
+      "Develop and optimize HPC applications and benchmarks on NVIDIA GPUs and CPUs.",
+      "Collaborate with HPC application developers to accelerate scientific computing applications.",
+      "Design and implement deep learning solutions for various scientific problems.",
+      "Contribute to the development of tools that enhance GPU-accelerated HPC applications.",
+      "Apply machine learning techniques to improve processes within NVIDIA."
+    ],
+    "requirements": [
+      "Ph.D. in Computer Engineering, Computer Science, or a related field.",
+      "Experience in developing and optimizing HPC applications.",
+      "Proficiency in programming languages such as C++ and Python.",
+      "Familiarity with GPU architectures and parallel computing.",
+      "Strong background in numerical simulation and artificial intelligence.",
+      "Excellent problem-solving skills and the ability to work collaboratively."
+    ],
+    "technologies": [
+      "C++",
+      "Python",
+      "CUDA",
+      "MPI",
+      "Deep Learning Frameworks",
+      "GPU architectures",
+      "Parallel computing"
+    ],
+    "softSkills": [
+      "Collaboration",
+      "Problem-solving",
+      "Communication",
+      "Adaptability",
+      "Innovation"
+    ],
+    "hardSkills": [
+      "HPC application development",
+      "Performance optimization",
+      "GPU programming",
+      "Machine learning implementation",
+      "Numerical simulation"
+    ]
+  }
+  

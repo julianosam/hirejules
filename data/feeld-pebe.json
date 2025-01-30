@@ -1,0 +1,46 @@
+{
+    "id": "feeld-principal-backend-engineer",
+    "company": "Feeld",
+    "title": "Principal Backend Engineer",
+    "originalUrl": "https://apply.workable.com/feeldco/j/287B5F3BC8/",
+    "jobSummary": "At Feeld, we are creating a world where everyone is more intimately connected to each other and themselves. This role involves integrating and managing complex systems in a dynamic environment, applying innovative technology to the dating space, and supporting the company’s scaling efforts.",
+    "responsibilities": [
+      "Explore new backend technologies and architectures to enhance our platform’s scalability, reliability, and performance.",
+      "Build robust and scalable backend systems, focusing on creating high-quality, maintainable code and optimizing application performance.",
+      "Support the engineering team by providing mentorship, conducting code reviews, and driving best practices in backend development.",
+      "Guide teams through scaling distributed databases milestones (e.g., Dynamo, Cassandra)."
+    ],
+    "requirements": [
+      "8-10 years of experience with backend development, including deep expertise in technologies such as Node.js, Python, Java or similar, and a strong understanding of system architecture and distributed systems.",
+      "Experience with a range of cloud services and infrastructure management across providers (AWS, GCP, Azure).",
+      "Led teams through challenging technical projects and provided leadership in solving complex backend problems.",
+      "Experience in designing and implementing scalable data solutions.",
+      "Understanding of the principles of security and compliance, ensuring backend systems are secure and adhere to industry standards.",
+      "Ability to lead scaling efforts for platforms with user bases growing from 2-10M."
+    ],
+    "technologies": [
+      "Node.js",
+      "Python",
+      "Java",
+      "AWS",
+      "GCP",
+      "Azure",
+      "DynamoDB",
+      "Cassandra"
+    ],
+    "softSkills": [
+      "Strong communication skills",
+      "Mentorship and team leadership",
+      "Strategic technical decision-making",
+      "Collaboration and teamwork"
+    ],
+    "hardSkills": [
+      "Backend development expertise",
+      "System architecture knowledge",
+      "Distributed systems design",
+      "Cloud services management",
+      "Scalable data solution design",
+      "Security and compliance principles"
+    ]
+  }
+  

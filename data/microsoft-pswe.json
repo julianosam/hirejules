@@ -1,0 +1,74 @@
+{
+    "id": "microsoft-pswe",
+    "company": "Microsoft",
+    "title": "Principal Software Engineer",
+    "originalUrl": "https://jobs.careers.microsoft.com/global/en/share/1792693/?utm_source=Job Share&utm_campaign=Copy-job-share",
+    "jobSummary": "The Microsoft Silicon Engineering Solutions and Cloud Hardware Infrastructure Engineering (SCHIE) team is responsible for developing and delivering the hardware and firmware that powers Microsoft's Intelligent Cloud mission. The Firmware Center of Excellence works on next-generation Hardware/Firmware for Azure Infrastructure, focusing on security and innovation. The role requires experience with SoC Architecture, system debugging, and hardware-firmware integration.",
+    "responsibilities": [
+      "Work on cutting-edge technology in a team that embodies a growth mindset.",
+      "Develop firmware for Azure Infrastructure, including server, silicon, and rack infrastructure.",
+      "Bring up SoC, root cause issues at the intersection of multiple subsystems across firmware and hardware.",
+      "Collaborate with multiple teams on root cause analysis, troubleshooting, and debugging complex Hardware/Firmware interface issues.",
+      "Implement platform initialization firmware, board support package integration, and low-level drivers for peripherals.",
+      "Work on memory management, scheduling, interrupts, and multi-threading at a low level."
+    ],
+    "requirements": [
+      "Bachelor's Degree in Computer Science, or related technical discipline AND 6+ years technical engineering experience with coding in C, C++, or Python OR equivalent experience.",
+      "Experience with early concept Architecture, designing, and delivering new technologies across an entire platform.",
+      "Experience in root cause analysis, troubleshooting, and debugging skills across Hardware/Firmware interfaces.",
+      "Experience with at least one of the following: platform initialization firmware, board support package integration, low-level drivers for peripherals (PCIe, I2C, eMMC, SPI, USB, UARTs), memory management, scheduling, interrupts, and multi-threading.",
+      "Ability to meet Microsoft, customer, and/or government security screening requirements.",
+      "Preferred: 12+ years of technical engineering experience OR Bachelor's degree in Electrical/Computer/Mechanical Engineering with 10+ years of experience OR Master's degree with 7+ years OR Doctorate with 5+ years.",
+      "In-depth knowledge of hardware and firmware interfaces: OpenBMC, DMTF MCTP, Redfish, PLDM, SPDM, RAS, UEFI, Virtualization/SRIOV.",
+      "Experience with high-performance computing, GPU, and AI accelerator integration in data centers.",
+      "Experience implementing hardware/firmware security primitives.",
+      "Experience with Windows and Linux operating systems at both kernel and application levels.",
+      "Passionate about coaching team members and helping them grow."
+    ],
+    "technologies": [
+      "C",
+      "C++",
+      "Python",
+      "System-on-Chip (SoC) Architecture",
+      "Platform Initialization Firmware",
+      "Board Support Package Integration",
+      "Low-level Drivers (PCIe, I2C, eMMC, SPI, USB, UARTs)",
+      "Memory Management",
+      "Scheduling",
+      "Interrupts",
+      "Multi-threading",
+      "OpenBMC",
+      "DMTF MCTP",
+      "Redfish",
+      "PLDM",
+      "SPDM",
+      "RAS",
+      "UEFI",
+      "Virtualization/SRIOV",
+      "High-Performance Computing",
+      "GPU Integration",
+      "AI Accelerators",
+      "Firmware Security",
+      "Windows Kernel",
+      "Linux Kernel"
+    ],
+    "softSkills": [
+      "Growth mindset",
+      "Passion for innovation",
+      "Collaboration with cross-functional teams",
+      "Coaching and mentoring team members",
+      "Debugging and problem-solving skills",
+      "Effective troubleshooting"
+    ],
+    "hardSkills": [
+      "SoC Architecture and Design",
+      "Firmware development",
+      "Hardware-firmware integration",
+      "Low-level driver development",
+      "System debugging",
+      "Memory management",
+      "Security implementation in hardware/firmware",
+      "Kernel-level software development"
+    ]
+  }
+  

@@ -2,16 +2,15 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
-import { GptService } from '../../shared/gpt.service';
-import { ResumeViewerComponent } from './resume-viewer/resume-viewer.component';
-import { JobReqViewerComponent } from "./job-req-viewer/job-req-viewer.component";
 import { HireJulesApiService } from '../../shared/hire-jules-api.service';
+import { RESUME_PROMPTS } from './prompts';
+import { ResumeViewerComponent } from './resume-viewer/resume-viewer.component';
 
 @Component({
   selector: 'hj-gpt',
   templateUrl: './gpt.component.html',
   standalone: true,
-  imports: [CommonModule, FormsModule, ResumeViewerComponent, JobReqViewerComponent],
+  imports: [CommonModule, FormsModule, ResumeViewerComponent],
   providers: [HireJulesApiService],
   styleUrls: ['./gpt.component.scss']
 })
@@ -22,23 +21,7 @@ export class GptComponent implements OnInit {
   @ViewChild('typingContainer', { static: true }) typingContainer!: ElementRef;
 
   messages: Message[] = [];
-  // prompts: string[] = ['Why is he the best fit?', 'Top 3 career achievements', 'Leadership style', 'Experience with technologies', 'Soft Skills', 'Hard Skills', 'Database experience', 'Top programming languages', 'Front-end experience', 'Back-end experience', 'Experience with Microservices', 'Experience with Cloud/AWS'];
-  prompts = [
-    { label: 'Why is he the best fit?', prompt: 'Why is he the best fit?', delay: 0 },
-    { label: 'Top 3 career achievements', prompt: 'What are his top 3 career achievements?', delay: 0 },
-    { label: 'Machine Learning, AI, GenAI and LLMs', prompt: 'What projects did he use AI and Machine Learning?', delay: 0 },
-    { label: 'Innovation', prompt: 'What projects showcase Jules\' innovative mindset?', delay: 0 },
-    { label: 'Leadership style', prompt: 'What is Jules leadership style?', delay: 0 },
-    { label: 'Soft skills', prompt: 'What are his soft skills?', delay: 0 },
-    { label: 'Programming Languages', prompt: 'Jules top programming languages?', delay: 0 },
-    { label: 'Microservices', prompt: 'What is his experience with Microservices?', delay: 0 },
-    { label: 'AWS Services', prompt: 'What is his experience with Cloud and AWS?', delay: 0 },
-    { label: 'SQL Databases', prompt: 'What is his experience with SQL databases?', delay: 0 },
-    { label: 'NoSQL Databases', prompt: 'What is his experience with NoSQL databases?', delay: 0 },
-    { label: 'Front-end', prompt: 'What is his experience with front-end development?', delay: 0 },
-    { label: 'Back-end', prompt: 'What is his experience with front-end development?', delay: 0 },
-    { label: 'CI/CD tools', prompt: 'What CI/CD tools has he used?', delay: 0 }
-  ];
+  prompts = RESUME_PROMPTS;
   jobName: string = '';
   enableTyping = true;
   typingTimeout: any = null;
@@ -57,46 +40,67 @@ export class GptComponent implements OnInit {
     this.init();
   }
 
+  ngAfterViewInit(): void {
+    this.messageContainer.nativeElement.addEventListener('click', (event: Event) => {
+      const clickedElement = event.target as HTMLElement;
+
+
+      if (clickedElement.tagName === 'A' && !clickedElement.getAttribute('target')) {
+        event.preventDefault();
+        this.send(clickedElement.getAttribute('href') || clickedElement.textContent as string);
+      }
+    });
+  }
+
   async init() {
 
     if (this.jobName) {
 
+      // fetches the job details
+      const jobInfoResponse = this._hireJulesApi.findJobByName(this.jobName);
+      const gptResponse = this._hireJulesApi.askGPT('list all main job requirements and why Jules is a great fit. skip the initial sentence', this.jobName);
       const urlJobData = this.extractCompanyAndJob(this.jobName);
       const openingMsg = `<h1>Hello <span class="hj-capitalize">${urlJobData?.company}</span> team!</h1><p>I'm Jules' assistant powered by GenAI, and I'm here to make your hiring process simpler.</p>`;
 
-      const openingMessageTyping = this.addAssistantMessage(openingMsg, false, 30);
+      // First message
+      await this.addAssistantMessage(openingMsg, false, 40, 600);
 
-      const jobInfoTyping = this.concatJobInfo(openingMessageTyping);
 
+      // Second message
+      const jobInfo = await jobInfoResponse;
+      const jobInfoText = `<p>I see you're interested in Jules for the <b class="hj-capitalize">${jobInfo.title}</b> role at <b class="hj-capitalize">${jobInfo.company}</b>. 
+        Here's why he is the best fit based on the <a class="underlined" href="${jobInfo.originalUrl}" target="__blank">job description <i class="bi bi-box-arrow-up-right"></i></a>:</p>`;
+      await this.addAssistantMessage(jobInfoText, true, 40);
 
-      // fetches the 
-      this._hireJulesApi.askGPT('top 5 job requirements and why Jules meets them. return only the <ul>.', this.jobName).then((answer) => {
-        let text = answer + `<br/><p>What else would you like to know about Jules? Start by asking a question, or select from the options below.</p>`;
-        jobInfoTyping.then(() => this.addAssistantMessage(text, true));
+      // Gpt response message
+      let text = await gptResponse;
+      text = text.includes('<div class="prompts">') ? text.replace('</div>', '') : text + '<div class="prompts">';
+      this.prompts.forEach(p => {
+        text += `<a class="prompt" href="${p.prompt}">${p.label}</a>`
       });
+      text += `</div><br>Or ask your own question using the input below.`;
+      this.addAssistantMessage(text, true);
 
 
     } else {
 
-      const openingMsg = `
+      let openingMsg = `
       <h1>Hi there!</h1> 
       <p>I'm Jules' assistant powered by GenAI, and I'm here to make your hiring process simpler. Ask me anything about Jules' skills, experience, and how they align with your job requirements!</p>
       <p>Start by asking a question, or select from the options below.</p>
       `;
 
-      this.addAssistantMessage(openingMsg, false, 20);
+      let prompts = `<div class="prompts">`;
+      this.prompts.forEach(p => {
+        prompts += `<a class="prompt" href="${p.prompt}">${p.label}</a>`
+      });
+      prompts += `</div>`
+
+      await this.addAssistantMessage(openingMsg, false, 40);
+      this.addAssistantMessage(prompts, true);
     }
 
   }
-
-
-  async concatJobInfo(openingMessageTyping: Promise<void>) {
-    const jobInfo = await this._hireJulesApi.findJobByName(this.jobName)
-    const text = `<p>I see you're interested in Jules for the <b class="hj-capitalize">${jobInfo.title}</b> role at <b class="hj-capitalize">${jobInfo.company}</b>. Here are 5 reasons why he is the best fit based on the <a class="underlined" href="${jobInfo.originalUrl}" target="__blank">job description <i class="bi bi-box-arrow-up-right"></i></a>:</p>`;
-    await openingMessageTyping;
-    return this.addAssistantMessage(text, true, 30);
-  }
-
 
   addUserMessage(text: string) {
     this.messages.unshift({ text, sent: true });
@@ -105,7 +109,7 @@ export class GptComponent implements OnInit {
 
   scrollToBottom(): void {
     try {
-      this.messageContainer.nativeElement.scroll({
+      this.messageContainer?.nativeElement.scroll({
         top: this.messageContainer.nativeElement.scrollHeight,
         // behavior: 'smooth'
       });
@@ -114,7 +118,7 @@ export class GptComponent implements OnInit {
     }
   }
 
-  async addAssistantMessage(content: string, append = false, typingSpeed = this.typingSpeed): Promise<void> {
+  async addAssistantMessage(content: string, append = false, typingSpeed = this.typingSpeed, delayAfterFinished = 0): Promise<void> {
 
     return new Promise((resolve) => {
 
@@ -160,7 +164,7 @@ export class GptComponent implements OnInit {
           this.typingTimeout = setTimeout(typeNext, typingSpeed);
         } else {
           this.enableTyping = true;
-          resolve();
+          setTimeout(resolve, delayAfterFinished);
           // setTimeout(() => this.inputTextField.nativeElement.focus(), 0);
         }
 
@@ -196,7 +200,7 @@ export class GptComponent implements OnInit {
   private extractCompanyAndJob(str: string): { company: string, jobName: string } | null {
     const [company, ...jobParts] = str.split('-');
     const jobName = jobParts.join(' ');
-    return company && jobName ? { company, jobName } : null;
+    return company && jobName ? { company: company.replaceAll('_', ' '), jobName } : null;
   }
 
 }

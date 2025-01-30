@@ -1,0 +1,51 @@
+{
+  "id": "stackadapt-ssweud",
+  "company": "StackAdapt",
+  "title": "Staff Software Engineer - User Data",
+  "originalUrl": "https://jobs.lever.co/stackadapt/6d7346d4-c659-4661-9066-d9353ae4d3bd",
+  "jobSummary": "StackAdapt is seeking a Staff Software Engineer to help lead our growing backend engineering team. Our real-time advertising bidding system handles millions of requests per second and stores several terabytes of data every day. Our technologies include Go, Ruby on Rails, Aerospike, Redis, Elasticsearch, Kafka, RocksDB, Redshift, ScyllaDB, GraphQL, and others. We're not afraid to test and try new technologies.",
+  "responsibilities": [
+    "Integrate data into StackAdapt’s Customer Data Platform (CDP)",
+    "Architect scalable low-latency backend systems and data pipelines. Write code as needed to support the team.",
+    "Provide technical leadership in designing scalable solutions and best practices",
+    "Make a positive impact on the team's productivity and growth",
+    "Promote software development best-practices and conduct rigorous code reviews",
+    "Rigorously identify and solve technical challenges"
+  ],
+  "requirements": [
+    "Adtech experience or Martech experience is an asset",
+    "Proven track record of building scalable pipelines and services",
+    "Experience with working with large data in low-latency environments",
+    "At least 5 years experience of software development in distributed systems, architecting scalable microservices and data pipelines in a successful high-growth technology company",
+    "A strong understanding of computer science fundamentals, data structures, and algorithms",
+    "Up to date knowledge and experience in the latest technologies, tools, and frameworks",
+    "Experience with Go and high performance databases is a plus"
+  ],
+  "technologies": [
+    "Go",
+    "Ruby on Rails",
+    "Aerospike",
+    "Redis",
+    "Elasticsearch",
+    "Kafka",
+    "RocksDB",
+    "Redshift",
+    "ScyllaDB",
+    "GraphQL"
+  ],
+  "softSkills": [
+    "Technical leadership",
+    "Team productivity enhancement",
+    "Promotion of best practices",
+    "Rigorous code review",
+    "Problem-solving"
+  ],
+  "hardSkills": [
+    "Backend system architecture",
+    "Data pipeline development",
+    "Software development in distributed systems",
+    "Microservices architecture",
+    "Data structures and algorithms",
+    "Experience with Go and high-performance databases"
+  ]
+}

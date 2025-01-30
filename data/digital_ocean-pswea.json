@@ -1,0 +1,57 @@
+{
+  "id": "digital_ocean-pswea",
+  "company": "DigitalOcean",
+  "title": "Principal Software Engineer, Architecture",
+  "originalUrl": "URL_NOT_PROVIDED",
+  "jobSummary": "We are looking for a highly experienced, highly motivated Principal Software Engineer with a Computer Science or Engineering background that will be involved in the architecture, design, implementation, verification and integration of the next generation of DigitalOcean Cloud Computing software.",
+  "responsibilities": [
+    "Working at the forefront of cloud and distributed computing technologies.",
+    "Serve as the architect driving the technical strategy and direction for our large-scale cloud services, driving simplicity, high-reliability, ease of maintenance and operation.",
+    "Own the primary responsibility for establishing a pragmatic long term technical direction for our software services ensuring alignment with our customers, business goals and internal teams.",
+    "Lead a team of highly passionate technical leads to evolve our service architecture, oversee alignment of several products technical roadmaps.",
+    "Lead by example through direct contribution, and provide direction in establishing development and operational practices.",
+    "Serving as the technical lead on our most demanding, cross-functional projects.",
+    "Actively mentor individuals and the engineering community on advanced technical issues."
+  ],
+  "requirements": [
+    "Architect level experience in the following domains:",
+    "The ideal candidate is excited about the incredible opportunity that cloud computing represents, and is passionate about delivering high quality services in a hyper-growth environment where priorities can shift fast.",
+    "Proven track record of leading and mentoring large software teams.",
+    "Experience with web and cloud native services is a must-have.",
+    "Demonstrate excellent ability to influence, build consensus and increase productivity by driving technical alignment between multiple teams.",
+    "Adept at Systems Thinking and is able to decompose complex problems into simple, straight-forward solutions.",
+    "Fully and completely understand system interdependencies and limitations.",
+    "Expert knowledge in performance, scalability, enterprise system architecture, and engineering best practices.",
+    "Leverage knowledge of open-source, industry, prior art in architecture decisions.",
+    "Balance technical leadership and savvy with strong business judgment to make the right decisions about technology.",
+    "Master’s degree or higher preferred.",
+    "15+ years professional experience in web-scale system software development.",
+    "5+ years developing and supporting serverless applications.",
+    "In depth experience in two or more of the following areas: Cloud Computing, Storage, Networking, Platform-as-a-Service, Infrastructure-as-a-Service, Software-as-a-Service.",
+    "Excellent communication skills at all levels is a must."
+  ],
+  "technologies": [
+    "Cloud Computing",
+    "Storage",
+    "Networking",
+    "Platform-as-a-Service",
+    "Infrastructure-as-a-Service",
+    "Software-as-a-Service",
+    "Serverless applications",
+    "Open-source technologies"
+  ],
+  "softSkills": [
+    "Ability to influence and build consensus.",
+    "Systems Thinking.",
+    "Strong business judgment.",
+    "Excellent communication skills.",
+    "Mentorship and leadership skills."
+  ],
+  "hardSkills": [
+    "Performance optimization.",
+    "Scalability and system architecture.",
+    "Engineering best practices.",
+    "Development of serverless applications.",
+    "Architecture decision-making."
+  ]
+}

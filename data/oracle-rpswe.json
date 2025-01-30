@@ -1,0 +1,43 @@
+{
+  "id": "oracle-rpswe",
+  "company": "Oracle",
+  "title": "Remote Principal Software Engineer",
+  "originalUrl": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/264170/?utm_medium=jobshare&utm_source=External+Job+Share",
+  "jobSummary": "As a member of the software engineering division, you will apply basic to intermediate knowledge of software architecture to perform software development tasks associated with developing, debugging or designing software applications or operating systems according to provided design specifications. Build enhancements within an existing software architecture and occasionally suggest improvements to the architecture. Duties and tasks are standard with some variation; displays understanding of roles, processes and procedures. Performs moderately complex problem solving with assistance and guidance in understanding and applying company policies and processes. BS degree or equivalent experience relevant to functional area. 7+ years of software engineering or related experience.",
+  "responsibilities": [
+    "Perform software development tasks associated with developing, debugging, or designing software applications or operating systems.",
+    "Build enhancements within an existing software architecture and occasionally suggest improvements to the architecture.",
+    "Display understanding of roles, processes, and procedures.",
+    "Perform moderately complex problem-solving with assistance and guidance in understanding and applying company policies and processes."
+  ],
+  "requirements": [
+    "Computer Science fundamentals in object-oriented design, data structures, and algorithm design.",
+    "7+ years of total experience with software development/programming experience with at least one object-oriented coding language such as Java, C++, C#, Javascript, Go, etc.",
+    "Systematic problem-solving approach, strong communication skills, a sense of ownership, and drive.",
+    "Experienced in building highly-available and scalable distributed services.",
+    "Experienced with microservice design patterns.",
+    "Exhibits behaviors consistent with OCI values."
+  ],
+  "technologies": [
+    "Java",
+    "C++",
+    "C#",
+    "Javascript",
+    "Go",
+    "microservices"
+  ],
+  "softSkills": [
+    "Systematic problem-solving approach",
+    "Strong communication skills",
+    "Sense of ownership",
+    "Drive",
+    "Behavior consistent with OCI values"
+  ],
+  "hardSkills": [
+    "Object-oriented design",
+    "Data structures",
+    "Algorithm design",
+    "Building highly-available and scalable distributed services",
+    "Microservice design patterns"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "toast-staffswetl",
+  "company": "Toast",
+  "title": "Staff Software Engineer, Tech Lead",
+  "originalUrl": "https://careers.toasttab.com/jobs/staff-software-engineer-tech-lead?gh_jid=6033908&gh_src=dbd19ebc1",
+  "jobSummary": "Toast is driven by building the restaurant platform that helps restaurants adapt, take control, and get back to what they do best: building the businesses they love. We are looking for a Staff Software Engineer, preferably with experience in building APIs, to lead a team taking our Team Management Platform APIs to the next level. In this role, you will establish system designs that partner with Product Management to drive technical roadmaps. You will lead initiatives to unify disparate data, implement scalable and flexible APIs that unlock new capabilities for our customers, and you will collaborate with partner teams to plan integration of these APIs into Toast’s Payroll, Team Management, Scheduling, and Mobile App experiences. You will become an expert in your domains, including scheduling, shift management, wage calculations, labor forecasting, and more.",
+  "responsibilities": [
+    "Be part of team working collaboratively to design and build APIs, and manage the migration of customer experiences to centralize all access to these domains across the Toast product suite",
+    "Influence product direction through technical insights, and drive API best practices",
+    "Champion quality automation and unit testing",
+    "Provide technical design feedback and participate in code reviews to ensure releases exceed the expectations of our many downstream teams",
+    "Ensure that all work done by the team is delivered with quality and is appropriately monitored and supported in production",
+    "Mentor other team members"
+  ],
+  "requirements": [
+    "Proficient in Java, Kotlin or other object oriented languages",
+    "Proficient with traditional databases and alternative data stores (DynamoDB a plus)",
+    "Prior experience with distributed systems, enterprise messaging systems or microservices",
+    "Proficient in Software Development best practices (Code Quality, UnitTest, BDD)",
+    "Experience integrating with Elasticsearch or OpenSearch a strong plus",
+    "Experience delivering high quality, reliable services to production",
+    "Excellent cross-team communication skills on complex technical topics",
+    "Enjoy collaborating with and mentoring colleagues",
+    "Passionate about technology and learning new things",
+    "Willingness to make continuous improvements to teams and technology"
+  ],
+  "technologies": [
+    "Java",
+    "Kotlin",
+    "DynamoDB",
+    "Elasticsearch",
+    "OpenSearch",
+    "AWS (S3, RDS, DynamoDB, Lambda)",
+    "PostgreSQL",
+    "Pulsar",
+    "Camel",
+    "RabbitMQ"
+  ],
+  "softSkills": [
+    "Excellent cross-team communication skills on complex technical topics",
+    "Enjoy collaborating with and mentoring colleagues",
+    "Passionate about technology and learning new things",
+    "Willingness to make continuous improvements to teams and technology"
+  ],
+  "hardSkills": [
+    "Proficient in Java, Kotlin or other object oriented languages",
+    "Proficient with traditional databases and alternative data stores (DynamoDB a plus)",
+    "Prior experience with distributed systems, enterprise messaging systems or microservices",
+    "Proficient in Software Development best practices (Code Quality, UnitTest, BDD)",
+    "Experience integrating with Elasticsearch or OpenSearch a strong plus",
+    "Experience delivering high quality, reliable services to production"
+  ]
+}
